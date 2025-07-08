@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A sample Soccer HTML page" />
+    <meta name="author(Gka)" content="" />
+    <!-- ✅ Bootstrap 5 CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ✅ Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./manu.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header class="navbar navbar-expand-md bg-success fixed-top navbar-dark px-3 py-3">
+        <div class="container-fluid p-0">
+            <!-- Brand -->
+            <div class="navbar-brand d-flex align-items-center gap-2 ps-3">
+                <img src="https://brandlogos.net/wp-content/uploads/2021/10/Premier-League-logo-symbol.png" width="40"
+                    alt="Premier League">
+                <span>Premier League</span>
+                <div class="LD-mode">
+                    <button id="toggle-btn" class="btn btn-warning ms-5" style="transition: box-shadow 0.3s;"
+                        onmouseover="this.style.boxShadow='0 0 10px #ffffff'"
+                        onmouseout="this.style.boxShadow='none'">Dark</button>
+                </div>
+            </div>
+
+            <!-- Toggler for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse pe-3" id="navLinks">
+                <ul class="navbar-nav ms-auto d-flex align-items-center gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./manu.html"><img
+                                src="https://www.logo.wine/a/logo/Manchester_United_F.C./Manchester_United_F.C.-Logo.wine.svg"
+                                width="35" id="imglogo"> ManU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./arsenal.html"><img
+                                src="https://www.logo.wine/a/logo/Arsenal_F.C./Arsenal_F.C.-Logo.wine.svg" width="35"
+                                id="imglogo">
+                            Arsenal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./liverpool.html"><img
+                                src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png"
+                                width="35" id="imglogo2"> Liverpool</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./chelsea.html"><img
+                                src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png"
+                                width="35" id="imglogo1"> Chelsea</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mancity.html"><img
+                                src="https://www.logo.wine/a/logo/Manchester_City_F.C./Manchester_City_F.C.-Logo.wine.svg"
+                                width="35" id="imglogo"> ManCity</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-success px-4 py-3 w-100" id="sub-navbar">
+        <div class="container-fluid w-100 px-0 d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand fw-bold text-white" href="#">Manchester United FC</a>
+
+            <div class="d-flex gap-4">
+                <a class="nav-link text-white" href="./index.html">Home</a>
+                <a class="nav-link text-white" href="#Trophies">Trophies</a>
+                <a class="nav-link text-white" href="#Managers">Managers</a>
+                <a class="nav-link text-white" href="#Players">Players</a>
+                <a class="nav-link text-white" href="#Location">Location</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow-1">
+    <div class="content pt-5 pb-5">
+        <div class="container py-3 mt-5 pt-5" id="aboutClub">
+            <div class="d-flex justify-content-between align-items-center flex-column flex-md-row gap-4">
+                <div class="mt-5">
+                    <img src="https://www.logo.wine/a/logo/Manchester_United_F.C./Manchester_United_F.C.-Logo.wine.svg"
+                        alt="" class="img-thumbnail" style=" max-width: 370px;">
+                </div>
+                <div class="text-center text-md-end text-lg-start">
+                    <!-- <p text-sm-start text-lg-end fs-4 lh-base> -->
+                    <h1 class="display-2 mb-5">Manchester United</h1>
+                    <p class="mb-3">
+                        <strong>Manchester United</strong> is one of the most iconic and successful football clubs in
+                        the
+                        world.
+                        Originally formed by railway workers as Newton Heath in 1878, the club faced financial
+                        difficulties
+                        and
+                        was rebranded as Manchester United in 1902. They moved to their legendary home, Old Trafford, in
+                        1910.
+                    </p>
+                    <p class="mb-3">
+                        The club's golden eras were shaped by two legendary managers:
+                    </p>
+                    <p class="mb-2">
+                        <strong>Sir Matt Busby (1945–1969):</strong> Built the famous "Busby Babes" and led United to
+                        their
+                        first European Cup win in 1968.
+                    </p>
+                    <p class="mb-2">
+                        <strong>Sir Alex Ferguson (1986–2013):</strong> Oversaw an era of dominance, winning 38 trophies
+                        including 13 Premier League titles and 2 UEFA Champions League titles.
+                    </p>
+                    <p>
+                        United is also known for its resilience, especially after the tragic Munich Air Disaster in
+                        1958,
+                        which
+                        claimed the lives of 8 players. The club rebuilt and rose to glory again.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4" id="Trophies">
+            <h3 class="text-danger mb-3">🏆 Manchester United – Major Achievements</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Competition</th>
+                            <th scope="col">Titles Won</th>
+                            <th scope="col">Last Title</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>English League Titles</td>
+                            <td>20</td>
+                            <td>2013</td>
+                        </tr>
+                        <tr>
+                            <td>FA Cups</td>
+                            <td>12</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>EFL / League Cups</td>
+                            <td>6</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>UEFA Champions League</td>
+                            <td>3</td>
+                            <td>2008</td>
+                        </tr>
+                        <tr>
+                            <td>UEFA Europa League</td>
+                            <td>1</td>
+                            <td>2017</td>
+                        </tr>
+                        <tr>
+                            <td>FIFA Club World Cup</td>
+                            <td>1</td>
+                            <td>2008</td>
+                        </tr>
+                        <tr>
+                            <td>FA Community Shields</td>
+                            <td>21</td>
+                            <td>2016</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h5 class="mt-4 text-danger mb-2">⚽ Manchester United vs Bayern Munich (1999)</h5>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/S6796hND-Kk" title="1999 Champions League Final Highlights"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="container my-5" id="Managers">
+            <h3 class="text-center mb-4 text-danger">Manchester United – Legendary Managers</h3>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://icdn.strettynews.com/wp-content/uploads/2022/11/812A093E-FD54-46D6-B344-76136D497075.jpeg"
+                            class="card-img-top" alt="Sir Alex Ferguson">
+                        <div class="card-body">
+                            <h5 class="card-title">Sir Alex Ferguson</h5>
+                            <p class="card-text">Managed from 1986–2013, he won 38 trophies including 13 Premier League
+                                titles and 2 UEFA Champions League titles. He built dynasties, developed youth, and
+                                defined
+                                an era of dominance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://c.files.bbci.co.uk/1408/production/_109482150_92a7cf42-ad1d-4a68-94ee-f6dc61109e5a.jpg"
+                            class="card-img-top" alt="Sir Matt Busby">
+                        <div class="card-body">
+                            <h5 class="card-title">Sir Matt Busby</h5>
+                            <p class="card-text">Manager from 1945–1969, he built the “Busby Babes” and led United to
+                                their
+                                first European Cup in 1968. He rebuilt the team after the 1958 Munich tragedy and shaped
+                                the
+                                club’s legacy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5 vh-50" id="Players" style="max-width: 600px;">
+            <h3 class="text-center mb-4 text-danger">🏟️ Manchester United Legends – Image Slider</h3>
+
+            <div id="manutdLegends" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <!-- George Best -->
+                    <div class="carousel-item active">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiKr3MVHnZ_uYseTp0fvA4TyN-5X6ReFYAwg&s"
+                            class="d-block rounded shadow-sm" alt="George Best">
+                        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                            <h5>George Best</h5>
+                            <p>Nickname: The Fifth Beatle 🎸</p>
+                        </div>
+                    </div>
+
+                    <!-- Eric Cantona -->
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsSYY5S3g286yB6QQx3kOTjRd1s-Q81S41Ow&s"
+                            class="d-block rounded shadow-sm" alt="Eric Cantona">
+                        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                            <h5>Eric Cantona</h5>
+                            <p>Nickname: The King 👑</p>
+                        </div>
+                    </div>
+
+                    <!-- Ryan Giggs -->
+                    <div class="carousel-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeBfwYmbVq7fRtrGaPSvFlMSvYlm0jwv-LJA&s"
+                            class="d-block rounded shadow-sm" alt="Ryan Giggs">
+                        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                            <h5>Ryan Giggs</h5>
+                            <p>Nickname: The Welsh Wizard 🧙‍♂️</p>
+                        </div>
+                    </div>
+
+                    <!-- Wayne Rooney -->
+                    <div class="carousel-item">
+                        <img src="https://media.gq-magazine.co.uk/photos/5d13993d3bedf26a76db6ad3/4:3/w_1704,h_1278,c_limit/Wayne-Rooney-02-GQ-21Sep16_pa_b.jpg"
+                            class="d-block rounded shadow-sm" alt="Wayne Rooney">
+                        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                            <h5>Wayne Rooney</h5>
+                            <p>Nickname: Wazza 🔥</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#manutdLegends"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#manutdLegends"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container my-5" id="Location">
+            <h3 class="text-center mb-4 text-danger">Old Trafford – Manchester United Stadium & Location</h3>
+            <div class="row gap-4">
+                <!-- Stadium Image -->
+                <div class="mb-4 col-md mx-auto">
+                    <img src="https://i.guim.co.uk/img/media/e2ef747c95e7765979df887301d0d533b2c4a6b6/0_332_5000_3001/master/5000.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=d0f67508715eb2998f6f98b727dd7cbb"
+                        alt="Old Trafford Stadium" class="img-fluid rounded shadow-sm w-100">
+                </div>
+
+                <!-- Google Map Embed -->
+                <div class="mb-4 ratio ratio-16x9 col-md mx-auto rounded overflow-hidden">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1186.217122636773!2d-2.291336!3d53.463058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bae1f3b6c9b0f%3A0x3c7f0b7f1f7b3e3e!2sOld%20Trafford!5e0!3m2!1sen!2suk!4v1680000000000"
+                        allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        title="Old Trafford Location Map">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <hr>
+    <footer class="bg-secondary text-white mt-auto rounded shadow-lg">
+        <div class="container-fluid px-3 px-md-5 py-4">
+            <div class="row gx-md-5 gy-3 align-items-start pt-3">
+                <div class="col-md-6">
+                    <h5>Premier League</h5>
+                    <p>&copy; 2025 All Rights Reserved</p>
+                </div>
+                <div class="col-md-6 text-start text-md-end">
+                    <a href="#" class="text-white text-decoration-none me-3">Privacy</a>
+                    <a href="#" class="text-white text-decoration-none">Terms</a>
+                    <a href="https://www.manutd.com" class="text-warning text-decoration-underline ps-4">Official
+                        Website of ManU</a>
+                    <p class="pt-3 text-start text-md-end text-light"><em>Developed by Tech Nerd</em></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById("toggle-btn");
+
+        // Page load မှာ ထည့်သွင်းသုံးသော function
+        function initializeTheme() {
+            const theme = localStorage.getItem("theme");
+            const isDark = theme === "dark";
+
+            if (isDark) {
+                document.body.classList.add("dark-mode");
+                btn.textContent = "Light";
+            } else {
+                btn.textContent = "Dark";
+            }
+        }
+
+        // Toggle လုပ်တဲ့ function
+        function toggleMode() {
+            const isDark = document.body.classList.toggle("dark-mode");
+            localStorage.setItem("theme", isDark ? "dark" : "light");
+            btn.textContent = isDark ? "Light" : "Dark";
+        }
+
+        // Event listener မထည့်ပေးရင် HTML ထဲမှာ btn ဖမ်းမရနိုင်တာကြောင့် ဒီလိုစီမံပါတယ်
+        document.addEventListener("DOMContentLoaded", () => {
+            initializeTheme();
+            btn.addEventListener("click", toggleMode);
+        });
+    </script>
+
+</body>
+
+</html>
+
+

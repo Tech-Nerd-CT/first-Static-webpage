@@ -1,0 +1,203 @@
+/* Base (Desktop) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar-brand img {
+  max-width: 40px;
+  height: auto;
+}
+
+
+.navbar a:hover {
+    color: #0e06f3;
+    transition: color 0.5s ease-in-out;
+}
+
+ul li img {
+    width: 25px;
+    height: auto;
+}
+
+#imglogo {
+    width: 30px;
+    height: 30px;
+}
+
+#imglogo1 {
+    width: 20px;
+    height: 20px;
+}
+
+#imglogo2 {
+    width: 20px;
+    height: 23px;
+}
+
+.preHistroy {
+    /* background: linear-gradient(to right, #2193b0, #6dd5ed); */
+    /* background: linear-gradient(to right, rgba(255, 126, 95, 0.8), rgba(254, 180, 123, 0.2)); */
+    /* background: linear-gradient(to right, #ff7e5fcc, #feb47b33); */
+    background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0)), 
+            url('your-image.jpg') no-repeat center/cover;
+
+}
+
+.liverpool-trophies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    background-color: #C8102E;
+    padding-top: 100px;
+}
+
+.manu-trophies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    background-color: #DA291C;
+}
+
+.arsenal-trophies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 400px;
+    background-color: #EF0107;
+}
+
+.mancity-trophies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 400px;
+    background-color: #6CABDD;
+}
+
+.chelsea-trophies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    background-color: #034694;
+} 
+
+h2 {
+    font-size: 35px;
+    color: gold;
+    padding: 5px 10px;
+    padding-bottom: 10px;
+}
+
+h2:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 255, 255, 0.3);
+    transition: underline 0.5s ease-in;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#liverpool,
+#manu,
+#arsenal {
+    color: #ffffff;
+}
+
+#mancity {
+    color: #00285E;
+}
+
+#chelsea {
+    color: #F1F1F1;
+}
+
+.footer_p1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-type {
+    min-width: 200px;
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+.logo-type h3 {
+    /* padding-right: 10px; */
+    text-align: center;
+}
+
+.image-group {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+#img {
+    cursor: pointer;
+    border-radius: 50%;
+    border-color: 2px solid #00285E;
+    transition: transform 0.5s ease-in;
+}
+
+#img:hover {
+    transform: rotate(360deg);
+    transition: border-color 0.5s ease-in-out;
+}
+
+.footer_p2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    flex-wrap: nowrap;
+}
+
+.store-image {
+    padding-left: 100px;
+}
+
+/* Dark Light Toggle */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    font-family: sans-serif;
+    padding: 2rem;
+}
+
+.dark-mode {
+    --bg-color: #262729;
+    --text-color: #a6b7c7;
+}
+
+/* .toggle-btn {
+    padding: 10px 20px;
+    background: #0366d6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
